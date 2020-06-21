@@ -4,10 +4,10 @@
 
 The tools you will need to install: 
 
-- zoom 
-- git (https://git-scm.com/downloads). 
-- an editor that you are comfortable with. 
-- a working PostgreSQL install
+[x] zoom 
+[x] git (https://git-scm.com/downloads). 
+[x] an editor that you are comfortable with. 
+[x] a working PostgreSQL install
 
 For the development dependencies, you'll need: 
 
