@@ -11,7 +11,7 @@ The tools you will need to install:
 
 For the development dependencies, you'll need: 
 
-- Elixir (Elixir 1.10.0 or better)
+* [x] Elixir (Elixir 1.10.0 or better)
 
 run the command: 
 
@@ -23,17 +23,24 @@ Elixir 1.10.1 (compiled with Erlang/OTP 21)
 ```
 
 ```
-[demo] (master=) ➔ elixir -v
-Erlang/OTP 21 [erts-10.2] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [hipe]
+[jdashton@d12030 demo]$ elixir -v
+Erlang/OTP 23 [erts-11.0.2] [source] [64-bit] [smp:16:16] [ds:16:16:10] [async-threads:1] [hipe] [dtrace]
 
-Elixir 1.10.1 (compiled with Erlang/OTP 21)
+Elixir 1.10.3 (compiled with Erlang/OTP 22)
 ```
 
-- node.js. Not optional! for Phoenix assets (I'm running npm -v 6.13.4)
-- Phoenix 1.5.3 (Yay: It includes LiveView. That will help.)
+* [x] node.js. Not optional! for Phoenix assets (I'm running npm -v 6.13.4)
+```
+[jdashton@d12030 demo]$ npm -v
+6.14.5
+```
+* [x] Phoenix 1.5.3 (Yay: It includes LiveView. That will help.)
+```
+[jdashton@d12030 demo]$ mix phx.new --version
+Phoenix v1.5.3
+```
 
-
-Is Phoenix working? Make sure you can run this command: 
+* [x] Is Phoenix working? Make sure you can run this command: 
 
 ```
 mix phx.new demo --live
@@ -41,7 +48,7 @@ mix phx.new demo --live
 ```
 
 
-and make sure you can then create the database: 
+* [x] and make sure you can then create the database: 
 
 ```
 cd demo
