@@ -60,16 +60,18 @@ Don't save this for the last minute! There are a few dependencies that will give
 
 ## 2. Clone this repository
 
-1. Fork this repository to your github account. 
+1. [x] Fork this repository to your github account. 
 
-- Go to https://github.com/groxio-learning/phx_24_June
-- Click the `fork` button in the upper right corner
-- Navigate to *your local version* (at something like https://github.com/your-github-account/phx_24_June )
-- copy the clone address to your clipboard. In the upper right, click `clone or download` then `copy to clipboard`
+- [x] Go to https://github.com/groxio-learning/phx_24_June
+- [x] Click the `fork` button in the upper right corner
+- [x] Navigate to *your local version* (at something like https://github.com/your-github-account/phx_24_June )
+- [x] Copy the clone address to your clipboard. In the upper right, click `clone or download` then `copy to clipboard`
 
-2. Clone your local version to your local machine. 
+2. [x] Clone your local version to your local machine. 
 
-- Clone it. *REPLACE your-github-account with your account*:  
+> Performed in GitKraken
+
+- [x] Clone it. *REPLACE your-github-account with your account*:  
 
 ```
 >  git clone https://github.com/your-github-account/phx_24_June.git
@@ -77,12 +79,17 @@ Don't save this for the last minute! There are a few dependencies that will give
 cd phx_24_June
 ```
 
-- Verify your remote: 
+- [x] Verify your remote: 
 
 ```
 $ git remote -v
 > origin  https://github.com/your-user/phx_24_June.git (fetch)
 > origin  https://github.com/your-user/phx_24_June.git (push)
+```
+```
+[jdashton@d12030 phx_24_June]$ git remote -v
+origin	https://github.com/jdashton/phx_24_June.git (fetch)
+origin	https://github.com/jdashton/phx_24_June.git (push)
 ```
 
 
@@ -100,7 +107,7 @@ $ git remote -v
 > origin  https://github.com/your-user/phx_24_June.git (push)
 ```
 
-- Set the upstream to the Groxio repo:
+- [x] Set the upstream to the Groxio repo:
 
 ```
 phx_24_June> git remote add upstream https://github.com/groxio-learning/phx_24_June.git
@@ -114,17 +121,24 @@ phx_24_June> git remote add upstream https://github.com/groxio-learning/phx_24_J
 > upstream  https://github.com/groxio-learning/phx_24_June.git (fetch)
 > upstream  https://github.com/groxio-learning/phx_24_June.git (push)
 ```
+```
+[jdashton@d12030 phx_24_June]$ git remote -v
+origin	https://github.com/jdashton/phx_24_June.git (fetch)
+origin	https://github.com/jdashton/phx_24_June.git (push)
+upstream	https://github.com/groxio-learning/phx_24_June.git (fetch)
+upstream	https://github.com/groxio-learning/phx_24_June.git (push)
+```
 
-3. Now check out your setup. Send me a pull request: Edit the file "pull_requests.md" and add your name: 
+3. [x] Now check out your setup. Send me a pull request: Edit the file "pull_requests.md" and add your name: 
 
-- Edit pull_requests.md
+- [x] Edit pull_requests.md
 
 ```
 Bruce Tate
 Your Name
 ```
 
-- Commit the file and push
+- [x] Commit the file and push
 
 ```
 > git commit . -m "my commit"
@@ -136,7 +150,7 @@ Your Name
 ...some happy success message...
 ```
 
-Now go to your repo online. Click: "Compare and create pull request" 
+- [x] Now go to your repo online. Click: "Compare and create pull request" 
 
 You're homework is done!
 
